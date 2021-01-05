@@ -1,0 +1,15 @@
+{
+  "/eu/*": {
+    "target": "https://www.safetyjogger.com/en/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/api/*": {
+    "target": "http://80.249.81.144:9014/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+
+}
